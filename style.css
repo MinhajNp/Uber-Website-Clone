@@ -1,0 +1,367 @@
+
+
+.section-one{
+    background: black;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35px;
+}
+.section-one h1{
+    color: #fff;
+    font-size: 50px;
+   
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.row{
+    margin: 65px 0 100px;
+}
+
+.row button{
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.image-section img{
+    width: 550px;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 25px;
+}
+.section-two h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+.input-section input{
+    border: none;
+    border-radius: 5px;
+    background: #d2d1d1;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 15px;
+   
+}
+.section-two p{
+    margin: 40px 0px 20px;
+}
+.btn-two{
+    border-bottom: 2px solid rgb(205, 204, 204);
+    border-radius: 0;
+    transition: 0.4s;
+    
+    
+}
+
+.btn-two:hover{
+    border-bottom: 2px solid black;
+}
+.section-two .btn-dark{
+    padding: 10px 20px;
+   
+}
+.bottom-section{
+    margin-left: 50px;
+    
+    
+    
+    
+}
+.bottom-section img{
+    width: 150px;
+   
+}
+.bottom-text{
+    padding: 20px;
+}
+.bottom-section p{
+    max-width: 300px;
+    margin-top: 0;
+    
+}
+.bottom-section h4{
+   margin-top: 70px;
+   transition: 0.5s;
+}
+.bottom-section .bottom-divs:hover h4{
+  margin-left: 20px;
+  cursor: pointer;
+}
+.bottom-divs{
+    margin-bottom: 50px;
+}
+.barcode-section{
+    background: #d2d1d1;
+    margin-bottom: 0;
+}
+
+.barcode-inner-box{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    padding: 25px;
+    margin-right: 10px;
+    max-width: 620px;
+    margin-bottom: 50px;
+    
+
+}
+.barcode-inner-box img{
+    width: 150px;
+}
+.barcode-text{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.barcode-inner-box h3{
+    margin-top: 65px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.barcode-inner-box:hover h3{
+    margin-left: 40px;
+}
+footer{
+    background: black;
+    padding: 50px;
+    margin-top: 0;
+}
+footer button{
+    border: none;
+   padding-bottom: 50px;
+   background: 0;
+   color: #fff;
+}
+footer button:hover{
+    border-bottom: 1px solid #fff;
+}
+.footer-list{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 50px;
+   
+   
+   
+}
+.footer-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2.5;
+}
+.footer-link:hover{
+    color: #d2d1d1;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.icon-white{
+    color: #fff;
+}
+.socialmedia-icon a{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.language-place{
+    display: flex;
+
+}
+.footer-lang{
+    color: #fff;
+    margin-right: 12px;
+    border-radius: 14px;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.footer-lang:hover{
+    background: #8e8e8e;
+    color: #fff;
+}
+.download-section img{
+    width: 120px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.footer-end a,small{
+text-decoration: none;
+color: #8e8e8e;
+margin-right: 10px;
+}
+
+.to-top{
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    padding: 0 11px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 28px;
+    text-decoration: none;
+    transition: all 0.4s;
+    pointer-events: none;
+    opacity: 0;
+    
+   
+}
+.to-top.active{
+    pointer-events: auto;
+    opacity: 1;
+    
+
+}
+.to-top h5{
+    display: none;
+    font-size: 18px;
+    
+}
+.to-top:hover h5{
+    display: block;
+    
+}
+
+
+.over-div{
+    position: absolute;
+    top: 70px;
+    background: #fff;
+    width: 100%;
+    height: 130%;
+    display: none;
+    
+}
+.over-div-login{
+    position: fixed;
+    top: 70px;
+    background: #fff;
+    width: 100%;
+    height: 130%;
+    display: none;
+    
+}
+.text-div{
+    height: 50px;
+    margin-top: 190px;
+}
+.text-div a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 500px;
+    margin-top: 70px;
+}
+.exit-icon{
+   font-size: 40px;
+   position: absolute;
+   right: 200px;
+   color: black;
+   
+}
+
+@media (max-width:992px){
+    .text-section{
+        order: 1;
+
+    }
+    .image-section{
+        order: 2;
+    }
+    .socialmedia-icon a{
+        margin-right: 10px;
+    }
+    .text-div{
+        height: 20px;
+        margin-top: 150px;
+    }
+    .exit-icon{
+        font-size: 40px;
+        position: absolute;
+        right: 90px;
+        color: black;
+        
+     }
+}
+@media (min-width: 992px){
+
+
+.nav-link{
+    color: #fff;
+    margin-right: 12px;
+    border-radius: 14px;
+}
+
+.nav-link i{
+    margin-right: 10px;
+}
+#signup-btn{
+    background: #fff;
+    border-radius: 16px;
+    color: black;
+    margin-top: 4px;
+    padding-top: 3px;
+
+}
+
+.nav-link:hover{
+    background: #8e8e8e;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.text-section{
+    margin-top: 230px;
+   padding-left:60px;
+ 
+      
+  }
+  .image-section{
+    padding-left: 60px;
+    
+    
+  }
+  .section-one h1{
+    max-width: 500px;
+  }
+  .row{
+ 
+   display: flex;
+   justify-content: space-between;
+    
+}
+
+.section-two .text-section{
+    max-width: 500px;
+    padding-left: 60px;
+    margin-top: 90px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+
+
